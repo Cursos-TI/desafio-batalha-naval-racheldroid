@@ -7,7 +7,7 @@
 int main() {
     // Nível Novato - Posicionamento dos Navios
     // Sugestão: Declare uma matriz bidimensional para representar o tabuleiro (Ex: int tabuleiro[5][5];).
-    int tabuleiro[10][11] = {0};
+    int tabuleiro[10][10] = {0};
         
     int x;
     int y;
