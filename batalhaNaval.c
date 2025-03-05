@@ -8,9 +8,18 @@ int main() {
     // Nível Novato - Posicionamento dos Navios
     // Sugestão: Declare uma matriz bidimensional para representar o tabuleiro (Ex: int tabuleiro[5][5];).
     int tabuleiro[10][10] = {0};
+
+    for (int x = 3; x <= 5; x++)
+    {
+        tabuleiro[3][x] = 3; 
+    }
+
+    for (int y = 5; y <= 7; y++)
+    {
+        tabuleiro [y][7] = 3;
+    }
+    
         
-    int x;
-    int y;
     /*
     char *linha [10] =  {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"};
     char coluna [10] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
