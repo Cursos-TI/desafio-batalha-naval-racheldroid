@@ -19,7 +19,17 @@ int main() {
         tabuleiro [y][7] = 3;
     }
     
-        
+    
+    for (int w = 0; w <= 2; w++)
+    {
+        tabuleiro [w][w]= 3;
+    }
+    
+    for (int z = 6; z <= 8; z++)
+    {
+        tabuleiro [z][z-4]= 3;
+    }
+
     /*
     char *linha [10] =  {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"};
     char coluna [10] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
